@@ -4,11 +4,15 @@ import Button from './Button'
 
 
 function App() {
+  const buttonClick = () => {
+    alert('hello')
+  }
+
   return (
     <div className="wrapper">
       <Header />
       <Button outline>hello world</Button>
-      <Button>Goodbye</Button>
+      <Button onClick={buttonClick}>Goodbye</Button>
       <div className="content">
         <div className="container">
           <div className="content__top">
