@@ -22,7 +22,7 @@ function Home({ itemsArr }) {
             {
               
               itemsArr.map((obj, index) => (
-                <ItemsBlock key={obj.id + '_' + index} {...obj}/>
+                <ItemsBlock key={obj.id + '_' + index} {...obj} />
               ))
               
             }
