@@ -77,7 +77,7 @@ ItemsBlock.propTypes = {
   imageUrl: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
   types: PropTypes.arrayOf(PropTypes.number).isRequired,
-  sizes: PropTypes.arrayOf(PropTypes.numbert5).isRequired,
+  sizes: PropTypes.arrayOf(PropTypes.number).isRequired,
 }
 
 ItemsBlock.defaultProps = { 
