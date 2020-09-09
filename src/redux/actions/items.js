@@ -1,4 +1,5 @@
-const setItems = (items) => ({
+export const setItems = (items) => ({
     type: 'SET_ITEMS',
     payload: items,
 })
+

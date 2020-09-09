@@ -3,8 +3,8 @@ import filterReducer from './filters'
 import itemsReducer from './items'
 
   const rootReducer = combineReducers({
-      filterReducer,
-      itemsReducer,
+      filters: filterReducer,
+      items: itemsReducer,
   }) 
 
   export default rootReducer;

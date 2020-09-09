@@ -3,7 +3,7 @@ const initialState = {
     isLoaded: false,
 }
 
-const filters = (state = initialState, action) => {
+const items = (state = initialState, action) => {
     switch (action.type) {
       case 'SET_ITEMS':
         return {
@@ -15,4 +15,4 @@ const filters = (state = initialState, action) => {
     }
   }
 
-  export default filters;
+  export default items;
